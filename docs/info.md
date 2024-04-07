@@ -1,22 +1,11 @@
-l<!---
-
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## How it works
+This project is to get variable width pulse at the output. The width of the output pulse may be bigger or smaller then the reference clock pulse. There are two different inputs namely increase_duty and decrease_duty. These inputs will be responsible for 10% change (increment/decrement) in the pulse width. The input frequency for this project is 50MHz.
 
-Explain how your project works
-
-We want to design Pluse width Modulation (PWM) with 50MHz input Frequency.
 
 ## How to test
 
-We check our design with the hlep of OpenROAD flow script (ORFS).
+The design was run and tested on OpenROAD flow script (ORFS).
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+The List of external hardware used: PMOD
